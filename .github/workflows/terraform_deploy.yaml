@@ -3,8 +3,8 @@ name: terraform_deploy
 on:
   push:
     branches:
-      - none
-      # - master
+      # - none
+      - master
 
 jobs:
   terraform:
