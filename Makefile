@@ -1,6 +1,6 @@
 APP_NAME := dummy
 TF_MAIN_PATH := ./infra/apps/$(APP_NAME)
-TF_ENV_PROD_PATH := ../../env/prod/$(APP_NAME)/env.tfvars
+TF_ENV_PROD_PATH := ../env/prod/$(APP_NAME)/env.tfvars
 
 .phony: tf-init
 tf-init:
