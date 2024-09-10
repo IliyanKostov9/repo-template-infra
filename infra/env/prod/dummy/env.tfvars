@@ -3,5 +3,5 @@ env    = "prod"
 
 resources       = ["arn:aws:s3:::*"]
 actions         = ["s3:ListAllMyBuckets"]
-iam_name        = "dummy_iam_policy"
+iam_name        = "dummy_iam_policy_example"
 iam_description = "IAM description example"
