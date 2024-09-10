@@ -5,7 +5,7 @@ terraform {
     organization = "iliyangit-personal-tf-org"
 
     workspaces {
-      name = "template-infra"
+      name = "repo-template-infra"
     }
   }
 
